@@ -34,3 +34,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+# Task Manager
+
+A simple task management application using Next.js and MongoDB.
+
+## Features
+- Create tasks with title, description, and due date
+- Mark tasks as complete/incomplete
+- Delete tasks
+- Persistent data storage with MongoDB
+
+## Setup
+1. Clone repository
+2. Install dependencies:
+   ```bash
+   npm install
+3. Create .env file:
+    ```MONGODB_URI=your_mongodb_connection_string
+4. Run development server:
+    ```npm run dev
