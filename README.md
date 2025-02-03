@@ -1,3 +1,26 @@
+# Task Manager
+
+A simple task management application using Next.js and MongoDB.
+
+## Features
+- Create tasks with title, description, and due date
+- Mark tasks as complete/incomplete
+- Delete tasks
+- Persistent data storage with MongoDB
+
+## Setup
+1. Clone repository
+2. Install dependencies:
+   ```bash
+   npm install
+3. Create .env file:
+    ```bash
+    MONGODB_URI=your_mongodb_connection_string
+4. Run development server:
+    ```bash
+    npm run dev
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -36,22 +59,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 
-# Task Manager
-
-A simple task management application using Next.js and MongoDB.
-
-## Features
-- Create tasks with title, description, and due date
-- Mark tasks as complete/incomplete
-- Delete tasks
-- Persistent data storage with MongoDB
-
-## Setup
-1. Clone repository
-2. Install dependencies:
-   ```bash
-   npm install
-3. Create .env file:
-    ```MONGODB_URI=your_mongodb_connection_string
-4. Run development server:
-    ```npm run dev
